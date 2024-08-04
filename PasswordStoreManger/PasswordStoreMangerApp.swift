@@ -1,17 +1,19 @@
-//
-//  PasswordStoreMangerApp.swift
-//  PasswordStoreManger
-//
-//  Created by shubam on 04/08/24.
-//
 
 import SwiftUI
 
 @main
 struct PasswordStoreMangerApp: App {
+    let persistenceController = PersistenceController.shared
+    @State var isAppActive: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isAppActive {
+                HomeScreen()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            } else {
+                LaunchScreen(isAppActive: $isAppActive)
+            }
         }
     }
 }
