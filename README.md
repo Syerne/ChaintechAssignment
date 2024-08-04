@@ -24,7 +24,8 @@ Open in Xcode
 - Select your target device or simulator.
 - Build and run the project using Cmd+R.
 
-- Add a New Password click on plus button ( + ).
+Add a New Password 
+- click on plus button ( + ).
 - Navigate to the "Add Password" screen.
 - Enter the account type, username/email, and password.
 - Tap on "Add New Account" to securely store the password. (basically save the details)
