@@ -24,6 +24,9 @@ Open in Xcode
 - Select your target device or simulator.
 - Build and run the project using Cmd+R.
 
+Home Screen
+![Home Screen](PasswordStoreManger/PasswordStoreManger/AppGuide/Images/HomeScreenEmpty.png)
+
 Add a New Password 
 - click on plus button ( + ).
 - Navigate to the "Add Password" screen.

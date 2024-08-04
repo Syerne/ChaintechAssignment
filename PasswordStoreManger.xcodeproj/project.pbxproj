@@ -11,6 +11,11 @@
 		3A2DF9A92C5F870F00165177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF9A82C5F870F00165177 /* ContentView.swift */; };
 		3A2DF9AB2C5F871000165177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9AA2C5F871000165177 /* Assets.xcassets */; };
 		3A2DF9AE2C5F871000165177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9AD2C5F871000165177 /* Preview Assets.xcassets */; };
+		3A2DF9B82C5F916D00165177 /* Demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9B72C5F916D00165177 /* Demo.mp4 */; };
+		3A2DF9BC2C5F918A00165177 /* EditUpdateDeletePassword.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9B92C5F918A00165177 /* EditUpdateDeletePassword.png */; };
+		3A2DF9BD2C5F918A00165177 /* HomeScreenEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9BA2C5F918A00165177 /* HomeScreenEmpty.png */; };
+		3A2DF9BE2C5F918A00165177 /* HomeScreenPasswordSaved.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9BB2C5F918A00165177 /* HomeScreenPasswordSaved.png */; };
+		3A2DF9C02C5F91E700165177 /* AddNewPasswordAccount.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9BF2C5F91E700165177 /* AddNewPasswordAccount.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		3A2DF9A82C5F870F00165177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A2DF9AA2C5F871000165177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2DF9AD2C5F871000165177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A2DF9B72C5F916D00165177 /* Demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Demo.mp4; sourceTree = "<group>"; };
+		3A2DF9B92C5F918A00165177 /* EditUpdateDeletePassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditUpdateDeletePassword.png; sourceTree = "<group>"; };
+		3A2DF9BA2C5F918A00165177 /* HomeScreenEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreenEmpty.png; sourceTree = "<group>"; };
+		3A2DF9BB2C5F918A00165177 /* HomeScreenPasswordSaved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreenPasswordSaved.png; sourceTree = "<group>"; };
+		3A2DF9BF2C5F91E700165177 /* AddNewPasswordAccount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddNewPasswordAccount.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		3A2DF9A52C5F870F00165177 /* PasswordStoreManger */ = {
 			isa = PBXGroup;
 			children = (
+				3A2DF9B42C5F905300165177 /* AppGuide */,
 				3A2DF9A62C5F870F00165177 /* PasswordStoreMangerApp.swift */,
 				3A2DF9A82C5F870F00165177 /* ContentView.swift */,
 				3A2DF9AA2C5F871000165177 /* Assets.xcassets */,
@@ -65,6 +76,34 @@
 				3A2DF9AD2C5F871000165177 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A2DF9B42C5F905300165177 /* AppGuide */ = {
+			isa = PBXGroup;
+			children = (
+				3A2DF9B62C5F906C00165177 /* Video */,
+				3A2DF9B52C5F906400165177 /* Images */,
+			);
+			path = AppGuide;
+			sourceTree = "<group>";
+		};
+		3A2DF9B52C5F906400165177 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3A2DF9B92C5F918A00165177 /* EditUpdateDeletePassword.png */,
+				3A2DF9BA2C5F918A00165177 /* HomeScreenEmpty.png */,
+				3A2DF9BB2C5F918A00165177 /* HomeScreenPasswordSaved.png */,
+				3A2DF9BF2C5F91E700165177 /* AddNewPasswordAccount.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3A2DF9B62C5F906C00165177 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				3A2DF9B72C5F916D00165177 /* Demo.mp4 */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +165,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2DF9AE2C5F871000165177 /* Preview Assets.xcassets in Resources */,
+				3A2DF9BE2C5F918A00165177 /* HomeScreenPasswordSaved.png in Resources */,
+				3A2DF9C02C5F91E700165177 /* AddNewPasswordAccount.png in Resources */,
 				3A2DF9AB2C5F871000165177 /* Assets.xcassets in Resources */,
+				3A2DF9BC2C5F918A00165177 /* EditUpdateDeletePassword.png in Resources */,
+				3A2DF9BD2C5F918A00165177 /* HomeScreenEmpty.png in Resources */,
+				3A2DF9B82C5F916D00165177 /* Demo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
