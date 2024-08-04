@@ -25,8 +25,7 @@ Open in Xcode
 - Build and run the project using Cmd+R.
 
 Home Screen
-<img src="/PasswordStoreManger/AppGuide/Images/HomeScreenEmpty.png" width="100" height="200">
-![Home Screen](/PasswordStoreManger/AppGuide/Images/HomeScreenEmpty.png)
+- <img src="/PasswordStoreManger/AppGuide/Images/HomeScreenEmpty.png" width="100" height="200">
 
 Add a New Password 
 - click on plus button ( + ).
