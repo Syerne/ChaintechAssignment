@@ -30,11 +30,14 @@ Home Screen
 Add a New Password 
 - click on plus button ( + ).
 - Navigate to the "Add Password" screen.
+- <img src="/PasswordStoreManger/AppGuide/Images/AddNewPasswordAccount.png" width="100" height="200">
 - Enter the account type, username/email, and password.
 - Tap on "Add New Account" to securely store the password. (basically save the details)
+- <img src="/PasswordStoreManger/AppGuide/Images/HomeScreenPasswordSaved.png" width="100" height="200">
 
 View and Edit Password
 - Tap on a password entry from the home screen list.
+- <img src="/PasswordStoreManger/AppGuide/Images/EditUpdateDeletePassword.png" width="100" height="200">
 - View the account details and tap "Edit" to make changes.
 - Save the changes to update the password.
 
