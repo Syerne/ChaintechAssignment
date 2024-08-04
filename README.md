@@ -46,7 +46,7 @@ Delete Password
 
 ## Video Demo
 
-[![Watch the demo](https://www.youtube.com/watch?v=STgUIixyW58)](https://www.youtube.com/watch?v=STgUIixyW58)
+[![Watch the demo](https://www.youtube.com/watch?v=STgUIixyW58)
 
 ## App demo 
 
