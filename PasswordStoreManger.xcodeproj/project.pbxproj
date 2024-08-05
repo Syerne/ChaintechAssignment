@@ -49,8 +49,6 @@
 		3A2DFA0E2C5FA42500165177 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FA2C5FA42500165177 /* Poppins-SemiBoldItalic.ttf */; };
 		3A2DFA0F2C5FA42500165177 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FB2C5FA42500165177 /* Poppins-Thin.ttf */; };
 		3A2DFA102C5FA42500165177 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FC2C5FA42500165177 /* Poppins-ThinItalic.ttf */; };
-		3A38B0AE2C60B38E004CBB6E /* UserInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FDF522C60B1B600222624 /* UserInfo.xcdatamodeld */; };
-		3A38B0B72C60B68D004CBB6E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A38B0B52C60B68D004CBB6E /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,8 +96,6 @@
 		3A2DF9FB2C5FA42500165177 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		3A2DF9FC2C5FA42500165177 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		3A2DFA112C5FA45000165177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		3A38B0B62C60B68D004CBB6E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		3A7FDF532C60B1B600222624 /* UserInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserInfo.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,9 +248,7 @@
 			children = (
 				3A2DF9E42C5FA33600165177 /* User+CoreDataClass.swift */,
 				3A2DF9E52C5FA33600165177 /* User+CoreDataProperties.swift */,
-				3A7FDF522C60B1B600222624 /* UserInfo.xcdatamodeld */,
 				3A2DF9E82C5FA37000165177 /* LocalDB.swift */,
-				3A38B0B52C60B68D004CBB6E /* Model.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -384,14 +378,12 @@
 				3A2DF9D62C5FA18E00165177 /* AppCoordinator.swift in Sources */,
 				3A2DF9C62C5F9EFA00165177 /* HomeScreen.swift in Sources */,
 				3A2DF9D92C5FA1B900165177 /* Common.swift in Sources */,
-				3A38B0B72C60B68D004CBB6E /* Model.xcdatamodeld in Sources */,
 				3A2DF9E92C5FA37000165177 /* LocalDB.swift in Sources */,
 				3A2DF9DC2C5FA1FC00165177 /* LocalDeviceAuthentication.swift in Sources */,
 				3A2DF9C92C5F9F3B00165177 /* AccountViewModel.swift in Sources */,
 				3A2DF9E62C5FA33600165177 /* User+CoreDataClass.swift in Sources */,
 				3A2DF9E72C5FA33600165177 /* User+CoreDataProperties.swift in Sources */,
 				3A2DF9A92C5F870F00165177 /* ContentView.swift in Sources */,
-				3A38B0AE2C60B38E004CBB6E /* UserInfo.xcdatamodeld in Sources */,
 				3A2DF9A72C5F870F00165177 /* PasswordStoreMangerApp.swift in Sources */,
 				3A2DF9D32C5F9FEA00165177 /* AccountDetailView.swift in Sources */,
 				3A2DF9CE2C5F9FB100165177 /* AccountCell.swift in Sources */,
@@ -606,31 +598,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3A38B0B52C60B68D004CBB6E /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3A38B0B62C60B68D004CBB6E /* Model.xcdatamodel */,
-			);
-			currentVersion = 3A38B0B62C60B68D004CBB6E /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = /Users/shubam/Desktop/ChaintechAssignment/PasswordStoreManger/CoreData/Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		3A7FDF522C60B1B600222624 /* UserInfo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3A7FDF532C60B1B600222624 /* UserInfo.xcdatamodel */,
-			);
-			currentVersion = 3A7FDF532C60B1B600222624 /* UserInfo.xcdatamodel */;
-			name = UserInfo.xcdatamodeld;
-			path = /Users/shubam/Desktop/ChaintechAssignment/PasswordStoreManger/CoreData/UserInfo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3A2DF99B2C5F870E00165177 /* Project object */;
 }
