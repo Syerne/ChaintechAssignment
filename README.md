@@ -1,4 +1,4 @@
-# ChaintechAssignment - SecurePasswordManager
+# SecurePasswordManager
 
 Welcome to SecurePasswordManager, an iOS application designed to securely store and manage your passwords in an organized manner. This app ensures the security of your sensitive information with strong encryption, making it user-friendly and easy to navigate.
 
