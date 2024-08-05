@@ -27,8 +27,6 @@
 		3A2DF9D92C5FA1B900165177 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF9D82C5FA1B900165177 /* Common.swift */; };
 		3A2DF9DC2C5FA1FC00165177 /* LocalDeviceAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF9DB2C5FA1FC00165177 /* LocalDeviceAuthentication.swift */; };
 		3A2DF9DF2C5FA22900165177 /* EncryptionAndDecryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF9DE2C5FA22900165177 /* EncryptionAndDecryption.swift */; };
-		3A2DF9E62C5FA33600165177 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF9E42C5FA33600165177 /* User+CoreDataClass.swift */; };
-		3A2DF9E72C5FA33600165177 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF9E52C5FA33600165177 /* User+CoreDataProperties.swift */; };
 		3A2DF9E92C5FA37000165177 /* LocalDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF9E82C5FA37000165177 /* LocalDB.swift */; };
 		3A2DF9FE2C5FA42500165177 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9EA2C5FA42500165177 /* OFL.txt */; };
 		3A2DF9FF2C5FA42500165177 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9EB2C5FA42500165177 /* Poppins-Black.ttf */; };
@@ -49,7 +47,7 @@
 		3A2DFA0E2C5FA42500165177 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FA2C5FA42500165177 /* Poppins-SemiBoldItalic.ttf */; };
 		3A2DFA0F2C5FA42500165177 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FB2C5FA42500165177 /* Poppins-Thin.ttf */; };
 		3A2DFA102C5FA42500165177 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FC2C5FA42500165177 /* Poppins-ThinItalic.ttf */; };
-		3A38B0BD2C60B936004CBB6E /* UserInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A38B0BB2C60B936004CBB6E /* UserInfo.xcdatamodeld */; };
+		3A38B0C02C60BA37004CBB6E /* PasswordCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A38B0BE2C60BA37004CBB6E /* PasswordCD.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,8 +72,6 @@
 		3A2DF9D82C5FA1B900165177 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		3A2DF9DB2C5FA1FC00165177 /* LocalDeviceAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDeviceAuthentication.swift; sourceTree = "<group>"; };
 		3A2DF9DE2C5FA22900165177 /* EncryptionAndDecryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionAndDecryption.swift; sourceTree = "<group>"; };
-		3A2DF9E42C5FA33600165177 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3A2DF9E52C5FA33600165177 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3A2DF9E82C5FA37000165177 /* LocalDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDB.swift; sourceTree = "<group>"; };
 		3A2DF9EA2C5FA42500165177 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		3A2DF9EB2C5FA42500165177 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
@@ -97,7 +93,7 @@
 		3A2DF9FB2C5FA42500165177 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		3A2DF9FC2C5FA42500165177 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		3A2DFA112C5FA45000165177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		3A38B0BC2C60B936004CBB6E /* UserInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserInfo.xcdatamodel; sourceTree = "<group>"; };
+		3A38B0BF2C60BA37004CBB6E /* PasswordCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordCD.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,10 +244,8 @@
 		3A2DF9E02C5FA26C00165177 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				3A2DF9E42C5FA33600165177 /* User+CoreDataClass.swift */,
-				3A2DF9E52C5FA33600165177 /* User+CoreDataProperties.swift */,
+				3A38B0BE2C60BA37004CBB6E /* PasswordCD.xcdatamodeld */,
 				3A2DF9E82C5FA37000165177 /* LocalDB.swift */,
-				3A38B0BB2C60B936004CBB6E /* UserInfo.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -384,12 +378,10 @@
 				3A2DF9E92C5FA37000165177 /* LocalDB.swift in Sources */,
 				3A2DF9DC2C5FA1FC00165177 /* LocalDeviceAuthentication.swift in Sources */,
 				3A2DF9C92C5F9F3B00165177 /* AccountViewModel.swift in Sources */,
-				3A2DF9E62C5FA33600165177 /* User+CoreDataClass.swift in Sources */,
-				3A2DF9E72C5FA33600165177 /* User+CoreDataProperties.swift in Sources */,
 				3A2DF9A92C5F870F00165177 /* ContentView.swift in Sources */,
-				3A38B0BD2C60B936004CBB6E /* UserInfo.xcdatamodeld in Sources */,
 				3A2DF9A72C5F870F00165177 /* PasswordStoreMangerApp.swift in Sources */,
 				3A2DF9D32C5F9FEA00165177 /* AccountDetailView.swift in Sources */,
+				3A38B0C02C60BA37004CBB6E /* PasswordCD.xcdatamodeld in Sources */,
 				3A2DF9CE2C5F9FB100165177 /* AccountCell.swift in Sources */,
 				3A2DF9DF2C5FA22900165177 /* EncryptionAndDecryption.swift in Sources */,
 				3A2DF9C22C5F9E5700165177 /* LaunchScreen.swift in Sources */,
@@ -604,14 +596,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3A38B0BB2C60B936004CBB6E /* UserInfo.xcdatamodeld */ = {
+		3A38B0BE2C60BA37004CBB6E /* PasswordCD.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3A38B0BC2C60B936004CBB6E /* UserInfo.xcdatamodel */,
+				3A38B0BF2C60BA37004CBB6E /* PasswordCD.xcdatamodel */,
 			);
-			currentVersion = 3A38B0BC2C60B936004CBB6E /* UserInfo.xcdatamodel */;
-			name = UserInfo.xcdatamodeld;
-			path = /Users/shubam/Desktop/ChaintechAssignment/PasswordStoreManger/CoreData/UserInfo.xcdatamodeld;
+			currentVersion = 3A38B0BF2C60BA37004CBB6E /* PasswordCD.xcdatamodel */;
+			path = PasswordCD.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
