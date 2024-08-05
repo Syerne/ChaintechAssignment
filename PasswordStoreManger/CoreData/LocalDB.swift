@@ -11,7 +11,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "UserInfo")
+        container = NSPersistentContainer(name: "PasswordCD")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

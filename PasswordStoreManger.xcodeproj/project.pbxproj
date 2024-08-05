@@ -11,7 +11,6 @@
 		3A2DF9A92C5F870F00165177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF9A82C5F870F00165177 /* ContentView.swift */; };
 		3A2DF9AB2C5F871000165177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9AA2C5F871000165177 /* Assets.xcassets */; };
 		3A2DF9AE2C5F871000165177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9AD2C5F871000165177 /* Preview Assets.xcassets */; };
-		3A2DF9B82C5F916D00165177 /* Demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9B72C5F916D00165177 /* Demo.mp4 */; };
 		3A2DF9BC2C5F918A00165177 /* EditUpdateDeletePassword.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9B92C5F918A00165177 /* EditUpdateDeletePassword.png */; };
 		3A2DF9BD2C5F918A00165177 /* HomeScreenEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9BA2C5F918A00165177 /* HomeScreenEmpty.png */; };
 		3A2DF9BE2C5F918A00165177 /* HomeScreenPasswordSaved.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9BB2C5F918A00165177 /* HomeScreenPasswordSaved.png */; };
@@ -48,6 +47,8 @@
 		3A2DFA0F2C5FA42500165177 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FB2C5FA42500165177 /* Poppins-Thin.ttf */; };
 		3A2DFA102C5FA42500165177 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FC2C5FA42500165177 /* Poppins-ThinItalic.ttf */; };
 		3A38B0C02C60BA37004CBB6E /* PasswordCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A38B0BE2C60BA37004CBB6E /* PasswordCD.xcdatamodeld */; };
+		3A38B0C72C60BB55004CBB6E /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38B0C52C60BB55004CBB6E /* User+CoreDataClass.swift */; };
+		3A38B0C82C60BB55004CBB6E /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38B0C62C60BB55004CBB6E /* User+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,7 +57,6 @@
 		3A2DF9A82C5F870F00165177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A2DF9AA2C5F871000165177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2DF9AD2C5F871000165177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3A2DF9B72C5F916D00165177 /* Demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Demo.mp4; sourceTree = "<group>"; };
 		3A2DF9B92C5F918A00165177 /* EditUpdateDeletePassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditUpdateDeletePassword.png; sourceTree = "<group>"; };
 		3A2DF9BA2C5F918A00165177 /* HomeScreenEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreenEmpty.png; sourceTree = "<group>"; };
 		3A2DF9BB2C5F918A00165177 /* HomeScreenPasswordSaved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreenPasswordSaved.png; sourceTree = "<group>"; };
@@ -94,6 +94,8 @@
 		3A2DF9FC2C5FA42500165177 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		3A2DFA112C5FA45000165177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3A38B0BF2C60BA37004CBB6E /* PasswordCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordCD.xcdatamodel; sourceTree = "<group>"; };
+		3A38B0C52C60BB55004CBB6E /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3A38B0C62C60BB55004CBB6E /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +158,6 @@
 		3A2DF9B42C5F905300165177 /* AppGuide */ = {
 			isa = PBXGroup;
 			children = (
-				3A2DF9B62C5F906C00165177 /* Video */,
 				3A2DF9B52C5F906400165177 /* Images */,
 			);
 			path = AppGuide;
@@ -171,14 +172,6 @@
 				3A2DF9BF2C5F91E700165177 /* AddNewPasswordAccount.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		3A2DF9B62C5F906C00165177 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				3A2DF9B72C5F916D00165177 /* Demo.mp4 */,
-			);
-			path = Video;
 			sourceTree = "<group>";
 		};
 		3A2DF9C32C5F9ECD00165177 /* Views */ = {
@@ -244,6 +237,8 @@
 		3A2DF9E02C5FA26C00165177 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				3A38B0C52C60BB55004CBB6E /* User+CoreDataClass.swift */,
+				3A38B0C62C60BB55004CBB6E /* User+CoreDataProperties.swift */,
 				3A38B0BE2C60BA37004CBB6E /* PasswordCD.xcdatamodeld */,
 				3A2DF9E82C5FA37000165177 /* LocalDB.swift */,
 			);
@@ -354,7 +349,6 @@
 				3A2DFA042C5FA42500165177 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				3A2DFA0E2C5FA42500165177 /* Poppins-SemiBoldItalic.ttf in Resources */,
 				3A2DF9FE2C5FA42500165177 /* OFL.txt in Resources */,
-				3A2DF9B82C5F916D00165177 /* Demo.mp4 in Resources */,
 				3A2DFA0C2C5FA42500165177 /* Poppins-Regular.ttf in Resources */,
 				3A2DFA0B2C5FA42500165177 /* Poppins-MediumItalic.ttf in Resources */,
 				3A2DFA102C5FA42500165177 /* Poppins-ThinItalic.ttf in Resources */,
@@ -378,6 +372,8 @@
 				3A2DF9E92C5FA37000165177 /* LocalDB.swift in Sources */,
 				3A2DF9DC2C5FA1FC00165177 /* LocalDeviceAuthentication.swift in Sources */,
 				3A2DF9C92C5F9F3B00165177 /* AccountViewModel.swift in Sources */,
+				3A38B0C72C60BB55004CBB6E /* User+CoreDataClass.swift in Sources */,
+				3A38B0C82C60BB55004CBB6E /* User+CoreDataProperties.swift in Sources */,
 				3A2DF9A92C5F870F00165177 /* ContentView.swift in Sources */,
 				3A2DF9A72C5F870F00165177 /* PasswordStoreMangerApp.swift in Sources */,
 				3A2DF9D32C5F9FEA00165177 /* AccountDetailView.swift in Sources */,
