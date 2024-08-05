@@ -49,8 +49,7 @@
 		3A2DFA0E2C5FA42500165177 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FA2C5FA42500165177 /* Poppins-SemiBoldItalic.ttf */; };
 		3A2DFA0F2C5FA42500165177 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FB2C5FA42500165177 /* Poppins-Thin.ttf */; };
 		3A2DFA102C5FA42500165177 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF9FC2C5FA42500165177 /* Poppins-ThinItalic.ttf */; };
-		3A7FDF542C60B1B600222624 /* UserInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FDF522C60B1B600222624 /* UserInfo.xcdatamodeld */; };
-		3A7FDF552C60B1C200222624 /* UserInfo.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 3A7FDF522C60B1B600222624 /* UserInfo.xcdatamodeld */; };
+		3A38B0AE2C60B38E004CBB6E /* UserInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FDF522C60B1B600222624 /* UserInfo.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -341,7 +340,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7FDF552C60B1C200222624 /* UserInfo.xcdatamodeld in Resources */,
 				3A2DFA062C5FA42500165177 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				3A2DFA082C5FA42500165177 /* Poppins-Light.ttf in Resources */,
 				3A2DFA072C5FA42500165177 /* Poppins-Italic.ttf in Resources */,
@@ -382,7 +380,6 @@
 				3A2DF9D02C5F9FCC00165177 /* NewAccountView.swift in Sources */,
 				3A2DF9D62C5FA18E00165177 /* AppCoordinator.swift in Sources */,
 				3A2DF9C62C5F9EFA00165177 /* HomeScreen.swift in Sources */,
-				3A7FDF542C60B1B600222624 /* UserInfo.xcdatamodeld in Sources */,
 				3A2DF9D92C5FA1B900165177 /* Common.swift in Sources */,
 				3A2DF9E92C5FA37000165177 /* LocalDB.swift in Sources */,
 				3A2DF9DC2C5FA1FC00165177 /* LocalDeviceAuthentication.swift in Sources */,
@@ -390,6 +387,7 @@
 				3A2DF9E62C5FA33600165177 /* User+CoreDataClass.swift in Sources */,
 				3A2DF9E72C5FA33600165177 /* User+CoreDataProperties.swift in Sources */,
 				3A2DF9A92C5F870F00165177 /* ContentView.swift in Sources */,
+				3A38B0AE2C60B38E004CBB6E /* UserInfo.xcdatamodeld in Sources */,
 				3A2DF9A72C5F870F00165177 /* PasswordStoreMangerApp.swift in Sources */,
 				3A2DF9D32C5F9FEA00165177 /* AccountDetailView.swift in Sources */,
 				3A2DF9CE2C5F9FB100165177 /* AccountCell.swift in Sources */,
